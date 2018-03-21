@@ -38,7 +38,7 @@ public class Staff_Test {
 		}
 		
 		total = total/5;
-		assertEquals(total,5200.00);
+		assertEquals(5200.00,total);
 		
 		try {
 			Staff s1 = new Staff("Charles", "Henry", "Pearson", new Date(1000, 10, 1), "Newark,DE", "(302)-123-5739", "Example@udel.edu", "9AM-10AM", 3, 5000.00, new Date(2000, 1, 17), eTitle.MR);
